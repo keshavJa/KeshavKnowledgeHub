@@ -877,8 +877,8 @@ const DEFAULT_DATA = {
     owner:"Keshav Jain",
     tagline:"Salesforce Architect · Knowledge Hub",
     brandInitial:"K",
-    adminUser:"admin",
-    adminPass:"Salesforce@123"
+    adminUser:"keshujain14@gmail.com",
+    adminPass:"July@1988"
   },
 
   menus:[
@@ -1981,7 +1981,6 @@ function openLogin(){
       '<div class="field"><label>User ID</label><input type="text" id="liUser" autocomplete="username" placeholder="admin"></div>'+
       '<div class="field"><label>Password</label><input type="password" id="liPass" autocomplete="current-password" placeholder="••••••••"></div>'+
       '<div class="login-error" id="liErr">Incorrect user ID or password.</div>'+
-      '<div class="login-hint">Default demo login → <b>'+esc(DB.site.adminUser)+'</b> / <b>'+esc(DB.site.adminPass)+'</b><br>Change these in Settings after your first login.</div>'+
     '</div>'+
     '<div class="modal-foot"><button class="btn btn-ghost" data-close>Cancel</button><button class="btn btn-primary" id="liGo">'+I.lock+' Sign in</button></div>';
   openModal(body, {card:'login-card', bare:true});
